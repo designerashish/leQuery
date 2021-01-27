@@ -12,51 +12,51 @@ API Reference
 ### Table of contents
 
  - DOM traversal
-    - [$.find](#$findselector)
-    - [$.id](#$idid)
-    - [$.findByTagName](#$findbytagnametagname)
-    - [$.findByClass](#$findbyclassclassname)
-    - [$.parent](#$parentelement)
-    - [$.children](#$childrenelement-tag)
-    - [$.next](#$nextelement)
-    - [$.previous](#$previouselement)
+    - [$.find](#findselector)
+    - [$.id](#idid)
+    - [$.findByTagName](#findbytagnametagname)
+    - [$.findByClass](#findbyclassclassname)
+    - [$.parent](#parentelement)
+    - [$.children](#childrenelement-tag)
+    - [$.next](#nextelement)
+    - [$.previous](#previouselement)
 
 
  - DOM manipulation
-    - [$.offset] (#$offsetelement)
-    - [$.width] (#$widthelement)
-    - [$.height] (#$heightelement)
-    - [$.attribute](#$attributeelement-attribute)
-    - [$.css](#$csselement-style)
-    - [$.getClass](#$getclasselement)
-    - [$.addClass](#$addclasselement-classname)
-    - [$.hasClass](#$hasclasselement-classname)
-    - [$.removeClass](#$removeclasselement-classname)
-    - [$.create](#$createhtml)
-    - [$.html](#$htmlelement-html)
-    - [$.text](#$textelement-text)
-    - [$.append](#$appendelement-html)
-    - [$.prepend](#$prependelement-html)
-    - [$.after](#$afterelement-html)
-    - [$.before](#$beforeelement-html)
-    - [$.replace](#$replaceelement-html)
-    - [$.remove](#$removeelement)
-    - [$.template](#$templatetpl-hash)
-    - [$.draggable](#$draggableelement-options)
+    - [$.offset] (#offsetelement)
+    - [$.width] (#widthelement)
+    - [$.height] (#heightelement)
+    - [$.attribute](#attributeelement-attribute)
+    - [$.css](#csselement-style)
+    - [$.getClass](#getclasselement)
+    - [$.addClass](#addclasselement-classname)
+    - [$.hasClass](#hasclasselement-classname)
+    - [$.removeClass](#removeclasselement-classname)
+    - [$.create](#createhtml)
+    - [$.html](#htmlelement-html)
+    - [$.text](#textelement-text)
+    - [$.append](#appendelement-html)
+    - [$.prepend](#prependelement-html)
+    - [$.after](#afterelement-html)
+    - [$.before](#beforeelement-html)
+    - [$.replace](#replaceelement-html)
+    - [$.remove](#removeelement)
+    - [$.template](#templatetpl-hash)
+    - [$.draggable](#draggableelement-options)
 
  - Utils
-    - [$.requestAnimationFrame](#$requestanimationframecallback)
-    - [$.cancelAnimationFrame](#$cancelanimationframeid)
-    - [$.isElement](#$iselementobject)
-    - [$.isNode](#$isnodeobject)
+    - [$.requestAnimationFrame](#requestanimationframecallback)
+    - [$.cancelAnimationFrame](#cancelanimationframeid)
+    - [$.isElement](#iselementobject)
+    - [$.isNode](#isnodeobject)
 
  - Event handling
-    - [$.addListener](#$addlistener-elementnodelistarray-event-listener)
-    - [$.removeListener](#$removelistener-elementnodelistarray-event-listener)
-    - [$.hasListener](#$haslistener-element-event-listener)
-    - [$.dispatch](#$dispatch-elementnodelistarray-event-options)
+    - [$.addListener](#addlistener-elementnodelistarray-event-listener)
+    - [$.removeListener](#removelistener-elementnodelistarray-event-listener)
+    - [$.hasListener](#haslistener-element-event-listener)
+    - [$.dispatch](#dispatch-elementnodelistarray-event-options)
 
- - [Dom Events](#$-events)
+ - [Dom Events](#-events)
     - [Mouse Events](#mouse-events)
         - `click`
         - `dblclick`
@@ -423,7 +423,7 @@ Attaches javascript listener to the element(s) for the given event type.
  - `listener` a javascript function wich will be called when given event occurs
 
 $.js also offers aliases for `$.addListener` function.
-You can check list of aliases, explanation and event names [here](#$-events).
+You can check list of aliases, explanation and event names [here](#-events).
 
 #### [Example](examples/$.addlistener.html)
 
