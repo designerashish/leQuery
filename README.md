@@ -41,12 +41,8 @@ API Reference
     - [$.before](#beforeelement-html)
     - [$.replace](#replaceelement-html)
     - [$.remove](#removeelement)
-    - [$.template](#templatetpl-hash)
-    - [$.draggable](#draggableelement-options)
 
  - Utils
-    - [$.requestAnimationFrame](#requestanimationframecallback)
-    - [$.cancelAnimationFrame](#cancelanimationframeid)
     - [$.isElement](#iselementobject)
     - [$.isNode](#isnodeobject)
 
@@ -354,47 +350,6 @@ Removes HTMLElement from dom tree
 
 #### [Example](examples/$.removeclass.html)
 
-### $.template(`tpl`, `hash`)
-
-Parses micro template string. Replaces `{{ tag }}` occurrences in string into values taken
-from hash object. Supports functions, numbers and strings.
-
-#### Parameters
- - `tpl` micro template string
- - `hash` hash object
-
-#### [Example](examples/$.template.html)
-
-### $.draggable(`element`, `options`)
-
-Makes html element draggable.
-
-#### Parameters
- - `element` html element
- - `options` options hash
-
-#### Options
- - `axis` _String_ (`x` or `y`) constrains movement to x or y axis
- - `grid` _Array_ ([`x`, `y`]) snaps the element to a grid
- - `handler` _HTMLElement_ specifies on what element the drag starts
- - `onDragStart` sets callback function which will be called when drag starts
- - `onDragMove` sets callback function which will be called when dragged elements move
- - `onDragEnd` sets callback function which will be called when drag ends
- - `constrain` _HTMLElement_ constrains movement to element's area or given box `[x0, y0, width, height]`
-
-#### [Example](examples/$.draggable.html)
-
-
-
-### $.requestAnimationFrame(`callback`)
-
-The Window.requestAnimationFrame() method tells the browser that you wish to perform an animation and requests that the browser call a specified function to update an animation before the next repaint. The method takes as an argument a callback to be invoked before the repaint.
-[learn more](https://developer.mozilla.org/en-US/docs/Web/API/window.requestAnimationFrame)
-
-### $.cancelAnimationFrame(`id`)
-
-Cancels an animation frame request previously scheduled through a call to `$.requestAnimationFrame`
-[learn more](https://developer.mozilla.org/en-US/docs/Web/API/Window.cancelAnimationFrame)
 
 ### $.isElement(`object`)
 
